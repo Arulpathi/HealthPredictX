@@ -38,4 +38,41 @@ To get started with HealthPredictX, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/HealthPredictX.git
+   git clone https://github.com/Arulpathi/HealthPredictX.git
+2. Navigate to the project directory:
+   ```bash
+   cd HealthPredictX
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+## Usage
+1. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+
+2. Enter the required health parameters in the input fields to receive predictions for diabetes, heart disease, and Parkinson’s disease.
+
+3. Interact with the chatbot for personalized suggestions and healthcare insights.
+
+## Model Performance
+The following machine learning models were used to make predictions for different diseases, with their corresponding accuracy:
+
+- Diabetes Prediction (SVC): 77% accuracy
+- Heart Disease Prediction (Logistic Regression): 82% accuracy
+- Parkinson’s Disease Prediction (Random Forest): 95% accuracy
+
+## Challenges and Future Work
+Challenges:
+- Data Quality: Ensuring the datasets are representative of diverse populations was a challenge.
+- Model Interpretability: Balancing model complexity with the need for transparent, interpretable predictions.
+- Chatbot Relevance: Improving the quality and relevance of the chatbot’s responses.
+
+Future Work:
+- Dataset Expansion: Expand the dataset to improve model training and generalizability.
+- Additional Algorithms: Implement and compare additional machine learning algorithms to further enhance predictions.
+- Chatbot Enhancement: Improve the chatbot using more advanced NLP techniques to engage users better.
+
+## References
+For more details, refer to [Healthcare Predictive Analytics Using Machine Learning and Deep Learning Techniques - A Survey](https://www.researchgate.net/publication/373453491_Healthcare_predictive_analytics_using_machine_learning_and_deep_learning_techniques_a_survey).
+For more details, refer to [this survey](https://www.researchgate.net/publication/373453491_Healthcare_predictive_analytics_using_machine_learning_and_deep_learning_techniques_a_survey).
